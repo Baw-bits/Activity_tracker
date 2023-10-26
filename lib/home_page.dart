@@ -45,6 +45,7 @@ class _HomePageState extends State<HomePage> {
     Navigator.of(context).pop();
   }
 
+// New change
   void cancelNewHabit() {
     _newHabitNameController.clear();
     Navigator.of(context).pop();
